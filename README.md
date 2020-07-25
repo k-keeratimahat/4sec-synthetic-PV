@@ -22,3 +22,11 @@ then arrange the 4-second clear sky output into hourly interval.
 * `model_4_sec.m` which generate 4-second time series with input of the hourly GHI, DNI and PV output of the plant to be modelled and the scaled distributions from the previous step.
 * `prepare_for_validation.m` which calculate PV output variability from the generated 4-second time series and other statistical measures including RMSD, NMBD and KSI.
 
+##### Sample outputs
+Each folder contains some examples of output file of the code(s) within the same folder.
+
+Where a reference plant and a test plant are paired, the file name can be read as follow:
+
+`bin_dist_pool_(yyyy)_(reference plant)_(test plant).mat`
+
+`Hourly_model_(yyyy)_(test plant)_(reference plant).mat`
