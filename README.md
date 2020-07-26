@@ -8,6 +8,8 @@ PV plants notation: 277 - Nyngan, 295 - Broken Hill, 299 - Moree, 309 - Royalla.
 #### Generate reference/training data
 `code - Generate reference data` contains subfolders of steps in generating statistical distribution from the reference data
 
+`3.1.1` contains code which caluclate bin number from hourly solar irradiance data.
+
 `3.1.2` contains codes to calculate 4-second clear sky PV output,
 then arrange the 4-second clear sky output into hourly interval.
 
